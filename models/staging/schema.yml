@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+    - name: staging
+      #For bigquery:
+      database: extreme-surge-375913
+
+      schema: trips_data_all_us
+
+      # loaded_at_field: record_loaded_at
+      tables:
+        - name: rides-green
+        - name: yellow_tripdata_non_partitoned
+         # freshness:
+           # error_after: {count: 6, period: hour}
