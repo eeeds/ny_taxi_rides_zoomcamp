@@ -11,6 +11,7 @@ sources:
       tables:
         - name: rides-green
         - name: yellow_tripdata_non_partitoned
+        - name: fhv_2019
          # freshness:
            # error_after: {count: 6, period: hour}
 models:
